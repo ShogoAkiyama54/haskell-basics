@@ -1,5 +1,5 @@
 # haskell-basics
-Basic Haskell syntax and examples learned through "Learn You a Haskell for Great Good" (http://learnyouahaskell.com/)
+Basic Haskell syntax and examples learned through [Learn You a Haskell for Great Good](http://learnyouahaskell.com/)
 
 ## How to complie and run Haskell code
 I use GHC as the book does. Download the Haskell Platform through [here](https://www.haskell.org/platform/).
