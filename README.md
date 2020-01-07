@@ -9,13 +9,14 @@ I use GHC as the book does. Download the Haskell Platform through [here](https:/
 + reload the current script: `:r`
 
 ## Boolean Algebra
-+ `&&` means and
-+ `||` means or
++ `&&` means *and*
++ `||` means *or*
 + `not` negates a `True` or `False` 
 
 ## Testing for Equality
-+ `==` means equal
-+ `/=` means unequal 
++ `==` means *equal*
++ `/=` means *unequal* 
+
 but they can compare only the same type
 
 ## Built-in Functions
