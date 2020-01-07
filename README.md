@@ -28,12 +28,24 @@ but they can compare only the same type
 + `max` A B: takes two things that can be put in an order and returns the greater one.
 
 ## Build-in Functions for List Operations
-+ `++`: puts two list together 
++ `[A] ++ [B]`: puts two list together. Haskell goes through the whole elements of the left side list to append the right list.
 ```
-[1,2,3,4] ++ [9,10,11,12]
->[1,2,3,4,9,10,11,12]
+ghci> [1,2,3,4] ++ [9,10,11,12]
+[1,2,3,4,9,10,11,12]
 ```
-+ `:`: 
++ `A : [B]`: puts an element to the head of the list
+```
+ghci> 'A' : " SMALL CAT"
+"A SMALL CAT"
+```
++ `[A] !! B`: takes an element out of the a list by index. The indices start at 0.
+```
+ghci> "Steve Buscemi" !! 6
+'B'
+```
+
+## List in Haskell
+`[1,2,3]` is actually just syntactic sugar for `1:2:3:[]`. `[]` is an empty list.
 
 ## String in Haskell
 string type in Haskell is just a list of character. That is, `"hello"` is just syntax suger for `['h','e','l','l','o']`.
