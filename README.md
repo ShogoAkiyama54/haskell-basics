@@ -43,6 +43,40 @@ ghci> 'A' : " SMALL CAT"
 ghci> "Steve Buscemi" !! 6
 'B'
 ```
++ `head [A]`: takes a list and returns its head.
+```
+ghci> head [5,4,3,2,1]
+5
+```
++ `tail [A]`: takes a list and returns its tail. In other words, it chops off a list's head.
+```
+ghci> tail [5,4,3,2,1]
+[4,3,2,1]
+```
++ `last [A]`: takes a list and returns its last element.
+```
+ghci> last [5,4,3,2,1]
+1
+```
++ `init [A]`: takes a list and returns everything except its last element.
+```
+ghci> init [5,4,3,2,1]
+[5,4,3,2]
+```
+`head`, `tail`, `last`, and `init` will throw an exception when used on empty lists.
+
++ `length [A]`: takes a list and returns its length.
+```
+ghci> length [5,4,3,2,1]
+5
+```
++ `null [A]`: checks if a list is empty. If it is, it returns True, otherwise it returns False. Use this function instead of xs == [] (if you have a list called xs)
+```
+ghci> null [1,2,3]
+False
+ghci> null []
+True
+```
 
 ## List in Haskell
 `[1,2,3]` is actually just syntactic sugar for `1:2:3:[]`. `[]` is an empty list.
