@@ -24,7 +24,7 @@ but they can compare only the same type
 
 ## Infix Function
 If a function takes two parameters, we can also call it as an infix function by surrounding it with backticks.
-`div 92 10` is equal to `92 \`div\` 10`
+`div 92 10` is equal to ``92 `div` 10``
 
 ## Built-in Functions
 + `succ A`: takes anything that has a defined successor and returns that successor. 
